@@ -46,8 +46,7 @@
     width:100%;
     position: absolute;
     z-index: -1;
-    background-size: cover;
- 
+
 
 }
 
@@ -64,12 +63,13 @@
 #bt{
 float: right;
 margin-top: 600px;
-margin-right: 50px;
+margin-left: 400px;
+margin-block-end: 50%;
 border: black;
 background-color: #2d3436;
 color: white;
 font-weight: bold;
 font-family: sans-serif;
-font-size: 40px;
+font-size: 30px;
 
 }
