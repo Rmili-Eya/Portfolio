@@ -1,0 +1,75 @@
+.container{
+    
+    background-color: gray;
+    overflow: hidden;
+    width: 100%;
+    background-color: transparent; /* nav bar transparente*/
+    position: fixed;/*pour que la nav reste fixe */
+   box-shadow: 1px 2px 3px #636e72/*shadow autour du nav */
+
+   
+}
+
+.logo{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    float:right;
+
+
+   
+}
+.nav>ul>li{
+    display: inline-block;
+  
+   
+}
+.nav>ul>li>a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: large;
+}
+.nav>ul>li:hover{
+    background-color:#636e72;
+}
+#img{
+   
+    width:100%;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+ 
+
+}
+
+.element{
+    float: right;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: sans-serif;
+    width: 50%;
+   margin-top:200px;
+ 
+   
+}
+#bt{
+float: right;
+margin-top: 600px;
+margin-right: 50px;
+border: black;
+background-color: #2d3436;
+color: white;
+font-weight: bold;
+font-family: sans-serif;
+font-size: 40px;
+
+}
